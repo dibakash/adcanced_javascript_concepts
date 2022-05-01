@@ -1,0 +1,17 @@
+.foreign{
+    height: 300px;
+    width: 400px;
+    background-color: pink;
+    display: grid;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+body{
+    background-color: black;
+    color : whitesmoke;
+}
