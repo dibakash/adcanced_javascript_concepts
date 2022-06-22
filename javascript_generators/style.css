@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+body, header, main,footer{
+    width: 100%;
+    background-color: azure;
+    border: 4px solid #6ad3f3;
+    display: grid;
+    padding: 1rem;
+    box-shadow: 10px 10px 5px  #00000013;
+}
+
+body{
+    padding: 2rem;
+    /* background-color: khaki; */
+    background: linear-gradient(45deg,#FFAFBD,#ffc3a0);
+    height: 100vh;
+    grid-template-rows: 1fr 7fr 1fr;
+    box-shadow: none;
+}
+
+main{
+    margin: 1rem 0 1rem;
+}
